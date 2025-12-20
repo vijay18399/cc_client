@@ -8,6 +8,7 @@ import AccountRecoveryPage from './pages/AccountRecoveryPage';
 import Navbar from './components/Navbar';
 import UpdateProfilePage from './pages/UpdateProfilePage';
 import PostDetailsPage from './pages/PostDetailsPage';
+import AnalyticsPage from './pages/AnalyticsPage';
 
 import SupportPage from './pages/SupportPage';
 import SupportFab from './components/Support/SupportFab';
@@ -31,6 +32,7 @@ function App() {
               <Route path="/profile/:username" element={<ProfilePage />} />
               <Route path="/update-profile" element={<UpdateProfilePage />} />
               <Route path="/post/:id" element={<PostDetailsPage />} />
+              <Route path="/analytics" element={<AnalyticsPage />} />
               <Route path="/support" element={<SupportPage />} />
             </Route>
           </Routes>

@@ -23,6 +23,7 @@ import LogoutIcon from '@mui/icons-material/LogoutRounded';
 import MenuIcon from '@mui/icons-material/MenuRounded';
 import { useAuth } from '../context/AuthContext';
 import LoginIcon from '@mui/icons-material/LoginRounded';
+import AnalyticsIcon from '@mui/icons-material/AnalyticsRounded';
 
 const drawerWidth = 280;
 const collapsedDrawerWidth = 88;
@@ -59,6 +60,7 @@ function Navbar() {
     { label: 'Explore', icon: <SearchIcon />, path: '/search' },
 
     { label: 'Profile', icon: <PersonIcon />, path: `/profile/${user.username}` },
+    { label: 'Analytics', icon: <AnalyticsIcon />, path: '/analytics' },
     { label: 'My Support', icon: <SupportAgentIcon />, path: '/support' },
   ] : [
     { label: 'Home', icon: <HomeIcon />, path: '/login' },
