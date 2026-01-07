@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api', // This will be proxied to the backend server
+  baseURL: 'https://cc-backend-vsve.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
